@@ -37,7 +37,22 @@ p{
 .section-p1{
     padding: 40px 80px;
 }
-.section m1{
+.section-m1{
+    margin: 40px 0;
+}
+/* button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+} */
+body{
     width: 100%;
 }
           /*header*/
@@ -163,10 +178,12 @@ p{
     text-align: center;
 }
 
-#product1 .pro-container{
+#product1 .pro_container{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    flex-wrap: wrap;
+
 }
 
 #product1 .pro{
@@ -179,7 +196,7 @@ p{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
     margin: 15px 0;
     transition: 0.2s ease;
-    position: relative;
+    
 }
 #product1 .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
@@ -211,7 +228,7 @@ p{
     font-weight: 700;
     color: #e1a730;
 }
-#product1 .pro .fa-cart-shopping{
+/* #product1 .pro .fa-cart-shopping{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -222,4 +239,46 @@ p{
     position: absolute;
     bottom: 20px;
     right: 10px;
+} */
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(nathan-anderson-fcZIyU-nbFE-unsplash.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+#banner h4{
+    color: white;
+    font-size: 16px;
+}
+#banner h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: #e1a730;
+}
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    background-color: #e1a730;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+#banner button:hover{
+    background-color: aliceblue;
+    color: #1a1a1a;
 }
