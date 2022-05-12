@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    background-color: white;
+    color: #e1a730;
+     margin-left: auto;
+    margin-right: auto;
+    font-family: 'League Spartan', sans-serif;
+} 
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 1px solid #e1a730;
+} 
+
+/* Set a style for all buttons */
+button {
+  background-color:#e1a730;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* The "Forgot password" text */
+div.psw {
+  float: right;
+ background-color:white;
+ margin: 40px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  div.psw {
+    display: block;
+    float: none;
+  }
+}
