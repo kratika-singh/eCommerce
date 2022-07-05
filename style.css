@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap'); */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
-    /* font-family: 'Oleo Script Swash Caps', cursive; */
 }
 
 h1 {
@@ -716,3 +714,67 @@ footer .copyright {
     padding: 12px;
 }
 
+                    /* Blog page */
+#page-header.blog-header{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(blog.png);
+}
+#blog p{
+    padding: 15px 0;
+    line-height: 20px;
+}
+#blog{
+    padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 70px;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blog .blog-details{
+    width: 50%;
+}
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    transition: 0.3s;
+}
+#blog .blog-details a:hover{
+    color: #e1a730;
+}
+                   /* About Us Page  */
+
+#page-header.about-header{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(about.jpg);
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+#about-app{
+    text-align: center;
+}
+#about-app video{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
