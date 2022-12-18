@@ -743,16 +743,25 @@ footer .copyright {
 #blog .blog-details{
     width: 50%;
 }
-#blog .blog-details a{
+/* #blog .blog-details a{
     text-decoration: none;
     font-size: 11px;
     color: #000;
     font-weight: 700;
     transition: 0.3s;
-}
-#blog .blog-details a:hover{
+} */
+.read-more-button{
     color: #e1a730;
 }
+.read-more-text{
+    display: none;
+}
+.read-more-text--show{
+    display: inline;
+}
+/* #blog .blog-details a:hover{
+    color: #e1a730;
+} */
                    /* About Us Page  */
 
 #page-header.about-header{
@@ -777,4 +786,56 @@ footer .copyright {
     height: 100%;
     margin-top: 30px;
     border-radius: 20px;
+}
+
+    /* Cart*/
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+    border: none;
+}
+#cart table thead{
+    border: 1px solid #d4d5d9;
+    border-left: none;
+    border-right: none;  
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+#cart table tbody td{
+    font-size: 13px;
 }
